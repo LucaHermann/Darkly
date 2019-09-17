@@ -1,0 +1,3 @@
+Après avoir visiter le robots.txt nous avons donc visiter le dossier .hidden qui comporte une très grande arboresence de fichiers,
+nous avons donc decider douvrir a la main quelque un des fichiers puis nous avons mis au point un scrapper en python qui prend l'ip en entrée,
+puis ouvre chaque sous dossier et ouvre le readme jusqu'a trouver le flag en utilisant la technique du path_traversal.

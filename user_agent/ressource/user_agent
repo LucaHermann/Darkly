@@ -1,0 +1,5 @@
+en regardant le lien tout en bas du site je suis arriver sur une page avec une mouette que j'ai passer a la dev tool,
+puis j'ai trouver le segment parlant de la nsa et du browser "ft_bornToSec" donc jai "changer" mon user-agent grace a un soft (user-agent switcher)
+puis dans le terminal j'ai taper :
+curl -A "ft_bornToSec" -e https://www.nsa.gov/ http://172.20.10.2/index.php\?page\=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c | grep flag
+-A pour preciser mon user-agent et le -e pour dire d'ou je viens ainsi que le grep pour simplifier la lecture 

@@ -1,0 +1,2 @@
+la faille se trouve en modifiant l'url dans les <a href="index.php?page=redirect&amp;site=facebook"> en bas des pages dans les redirections par
+<a href="index.php?page=redirect&amp;site=admin">

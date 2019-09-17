@@ -1,0 +1,1 @@
+nous avons simuler un POST grace a curl puis envoyer un fichier vide .php en modifiant a la volée le form grace a -F ce qui ma devoiler le flag.

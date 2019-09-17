@@ -1,0 +1,3 @@
+pour trouver le flag je me suis rendu sur la page de signin car elle comporte des methods GET ce qui nous a permis de modifier l'url,
+ainsi je suis passer de http://172.20.10.2/?page=signin à http://172.20.10.2/?page=../../../../../../../etc/passwd et j'ai decouvert le flag.
+cette technique est le path_traversal que j'ai trouver sur OWASP

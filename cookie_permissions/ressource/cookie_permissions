@@ -1,0 +1,4 @@
+en cherchant dans les cookies grace a la dev tool de chrome,
+nous somme tombés sur un cookie i_am_admin qui contenais un hash en md5,
+apres avoir decrypt le hash nous avons vu qu'il etait egal a false,
+nous avons dons hash le mot clé true puis changer le hash dans le cookie apres avoir refresh le flag est apparu.
