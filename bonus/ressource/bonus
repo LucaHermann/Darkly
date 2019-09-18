@@ -1,0 +1,2 @@
+Pour trouver ces 9 flag il a fallu entrer root dans l'iso. Pour cela, au demarage, appuyer sur tab pour editer les options de boot et ramplacer 'quiet splash --' par 'init=/bin/bash'.
+De cette maniere, avant de lancer l'iso, un terminal va s'ouvrire. il suffit en suite de faire une petite recherche avec grep dans les dossier les plus interessants: 'grep -sr "flag is" var/www/html/' et les flags apparaisent.
