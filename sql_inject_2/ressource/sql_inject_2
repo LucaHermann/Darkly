@@ -1,0 +1,5 @@
+Pour trouver cette faille nous avons tout d'abord utiliser l'injection 1 UNION SELECT table_name,column_name FROM information_schema.columns 
+pour recuperer la totaliter des tables et leurs colonnes puis en farfouillant je suis arriver a me balader dans la table users
+grace a l'injection 1 UNION SELECT first_name,countersign FROM users et je suis tomber sur :
+name : Flag countersign : 5ff9d0165b4f92b14994e5c685cdce28
+wue jai donc decoder en md5 ce qui me donna fortytwo que jai ensuite hash en sha265 pour avoir le flag
