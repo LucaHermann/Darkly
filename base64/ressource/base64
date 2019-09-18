@@ -1,2 +1,3 @@
-Pour trouver le flag nous avons encoder un script disant "Hello world" en base64 et envoyer cette base64 par l'url ce qui a decouvert le flag.
+sur la home page il y a une image de la nsa, pour trouver le flag nous avons encoder un script disant "Hello world" en base64
+et envoyer cette base64 par l'url a la place de l'image nsa ce qui a decouvert le flag.
 http://172.20.10.2/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGVsbG8gd29ybGQiKTwvc2NyaXB0Pg==
