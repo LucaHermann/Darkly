@@ -1,2 +1,0 @@
-Dans la page survey, en essayant de changer la valeur d'un des field du selecteur et en le selectionant par la suite, le flag apparait !
-Pour pallier a ce probleme, il faudrait checker dans le front ou le back si les valeurs retournees son bien comprises entre les valeurs souhaitees.
