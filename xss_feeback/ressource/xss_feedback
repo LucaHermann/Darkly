@@ -1,1 +1,0 @@
-sur la page feedback, dans la partie message, ecrire 'script', valider et le flag apparait. L'intuition est venue du faite qu'en essyant d'injecter un script dans la parti message, les balises etait automatiquement enleve avant apparaitre dans les messages. En suite, a force d'essais on a trouve cette solution. 
