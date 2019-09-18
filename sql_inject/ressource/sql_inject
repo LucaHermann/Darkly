@@ -1,0 +1,5 @@
+Pour trouver cette faille nous avons tout d'abord utiliser l'injection 1 UNION SELECT table_name,column_name FROM information_schema.columns 
+pour recuperer la totaliter des tables et leurs colonnes puis en farfouillant je suis arriver a me balader dans la table list_images
+grace a l'injection 1 UNION SELECT id,comment FROM list_images et je suis tomber sur :
+Title: If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
+wue jai donc decoder en md5 ce qui me donna Albatroz que jai ensuite hash en sha265 pour avoir le flag
